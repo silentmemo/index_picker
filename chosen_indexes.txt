@@ -1,0 +1,5 @@
+I7_index_type	I7_index_name	I7_sequence	I5_index_type	I5_index_name	I5_sequence	Weight
+I7	N701	TAAGGCGA	I5	N501	TAGATCGC	0.33
+I7	N702	CGTACTAG	I5	N502	CTCTCTAT	0.33
+I7	N701	TAAGGCGA	I5	N504	AGAGTAGA	0.33
+
