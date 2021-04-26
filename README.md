@@ -1,5 +1,5 @@
 # Index_picker
-This repo is dedicated to a small untility program that help choose a color-balanced set of index. 
+This repo is dedicated to a small untility program that help to choose a color-balanced set of index. 
 
 ## Background and motivation
 Illumina has created a handful of chemistry to generate signal during sequencing. To obtain a high quality base call, the sequencer has to be clearly distinguish cluster on the tile, which can be easily done if the flowcell has high complexity. This assumption may be violated when sequencing low complexity part of the library, such as index. It is therefore important to choose suitable indexes combination that balance in bases such that the complexity is maximized. 
