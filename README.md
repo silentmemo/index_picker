@@ -13,7 +13,7 @@ The second idea is to base on the existing list of chosen index, calculate the c
 1. User already have a list of index (dual index, 8bp)
 2. User have X more indexes to choose from a defined list
 
-### example usage
+### Usage
 Please keep the header of __CD_index.txt__ and __chosen_indexes.txt__.
 ```
 python index_picker.py CD_index.txt chosen_indexes.txt
