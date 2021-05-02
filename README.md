@@ -21,3 +21,6 @@ python index_picker.py CD_index.txt chosen_indexes.txt
 
 ### TODOs
 1. print warnings if any of the base exceed limit
+
+### Issue
+1. weight of new index is not intuitive
