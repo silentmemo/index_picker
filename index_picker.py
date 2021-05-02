@@ -89,7 +89,6 @@ def main():
         I5_base_composition = get_base_composition(chosen_I5_seq_list)
         I7_df  = pd.DataFrame(I7_base_composition)
         I5_df  = pd.DataFrame(I5_base_composition)
-        # I7_df.plot(kind="bar", stacked=True)
         # print(chosen_I7_seq_list)
 
         ### with the base composition found, design a maximization function such that it maximize the base balance 
@@ -196,5 +195,9 @@ def main():
             else:
                 another_flag = False
                 print (pd.DataFrame.from_dict(chosen_index_dict,orient="index"))
+                i7_fig = I7_df.plot(kind="bar", stacked=True).get_figure()
+                i7_fig.savefig('i7_base_composition.png')
+                i5_fig = I5_df.plot(kind="bar", stacked=True).get_figure()
+                i5_fig.savefig('i5_base_composition.png')
 
 main()

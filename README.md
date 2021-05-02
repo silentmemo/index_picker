@@ -20,5 +20,4 @@ python index_picker.py CD_index.txt chosen_indexes.txt
 ```
 
 ### TODOs
-1. provide before and after base composition of index. 
-2. print warnings if any of the base exceed limit
+1. print warnings if any of the base exceed limit
