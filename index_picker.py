@@ -194,10 +194,11 @@ def main():
                 another_flag = True
             else:
                 another_flag = False
+                out_df = pd.DataFrame.from_dict(chosen_index_dict,orient="index")
                 print (pd.DataFrame.from_dict(chosen_index_dict,orient="index"))
                 i7_fig = I7_df.plot(kind="bar", stacked=True).get_figure()
                 i7_fig.savefig('i7_base_composition.png')
                 i5_fig = I5_df.plot(kind="bar", stacked=True).get_figure()
                 i5_fig.savefig('i5_base_composition.png')
-
+                out_df.to_csv("final.csv")
 main()
