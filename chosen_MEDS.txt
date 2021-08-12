@@ -1,2 +1,2 @@
 I7_index_type	I7_index_name	I7_sequence	I5_index_type	I5_index_name	I5_sequence	Weight
-I7	P7_1_PCR_Primer	CCGAATCCGA	I5	P5_1_PCR_Primer	CTCCATCGAG	0.25
+I7	P7_i7_1	CGAGTAAT	I5	P5_i5_1	TATAGCCT	0.25
