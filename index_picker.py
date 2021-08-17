@@ -21,7 +21,7 @@ def load_chosen_index(filepath):
 def get_sequence_from_dict_to_list(inputDict,field_name):
     outputList = []
     for item in inputDict:
-        # print(inputDict[item].get("Weight"))
+        # print(inputDict[item].get(field_name))
         outputList.append((inputDict[item].get(field_name),float(inputDict[item].get("Weight"))))
     return outputList
     # return outputList
@@ -77,6 +77,7 @@ def main():
     ava_index_dict = load_all_index(sys.argv[1])
     # ava_index_dict = load_all_index("CD_index.txt")
     chosen_index_dict = load_chosen_index(sys.argv[2])
+    print(chosen_index_dict)
     # chosen_index_dict = load_chosen_index("chosen_indexes.txt")
     another_flag = True
     while another_flag != False:
